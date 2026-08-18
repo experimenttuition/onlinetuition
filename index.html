@@ -3,61 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ms. Evelyn's Online Tuition | Academic Excellence</title>
+    <title>Ms. Evelyn's Online Tuition | Evelyn Superb Enterprise</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .hero-bg { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center; }
+        .hero-bg { 
+            background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), 
+                        url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); 
+            background-size: cover; 
+            background-position: center; 
+        }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
     <!-- Hero Section -->
-    <header class="hero-bg h-screen flex flex-col justify-center items-center text-white p-6 text-center">
-        <h1 class="text-5xl md:text-6xl font-bold mb-4">Ms. Evelyn's Online Tuition</h1>
-        <p class="text-xl md:text-2xl mb-8 max-w-2xl">12+ Years of Experience helping students achieve their A's. Personalized learning for Primary, Secondary, SPM, IGCSE & Adults.</p>
-        <a href="https://wa.me/60149623810" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full text-lg transition">Book a Free Consultation</a>
+    <header class="hero-bg min-h-screen flex flex-col justify-center items-center text-white p-6 text-center">
+        <!-- Logo Container -->
+        <div class="mb-6 bg-white/95 p-4 rounded-full shadow-lg border-2 border-amber-300">
+            <img src="logo.png" alt="Evelyn Superb Enterprise Logo" class="h-28 w-28 object-contain">
+        </div>
+
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 tracking-tight">Ms. Evelyn's Online Tuition</h1>
+        <p class="text-lg md:text-2xl mb-8 max-w-2xl text-gray-200">12+ Years of Experience helping students achieve their A's. Personalized learning for Primary, Secondary, SPM, IGCSE & Adults.</p>
+        <a href="https://wa.me/60149623810" class="bg-amber-500 hover:bg-amber-600 text-gray-900 font-bold py-3 px-8 rounded-full text-lg shadow-lg transition transform hover:-translate-y-0.5">Book a Free Consultation</a>
     </header>
 
     <!-- Stats -->
-    <section class="py-12 bg-white shadow-sm">
-        <div class="max-w-4xl mx-auto flex flex-wrap justify-around text-center">
+    <section class="py-12 bg-white shadow-sm border-b">
+        <div class="max-w-4xl mx-auto flex flex-wrap justify-around text-center gap-6">
             <div class="p-4">
-                <h3 class="text-3xl font-bold text-blue-600">12+</h3>
-                <p>Years Experience</p>
+                <h3 class="text-4xl font-extrabold text-amber-500">12+</h3>
+                <p class="text-gray-600 font-medium mt-1">Years Experience</p>
             </div>
             <div class="p-4">
-                <h3 class="text-3xl font-bold text-blue-600">1000+</h3>
-                <p>Students Helped</p>
+                <h3 class="text-4xl font-extrabold text-amber-500">1000+</h3>
+                <p class="text-gray-600 font-medium mt-1">Students Helped</p>
             </div>
             <div class="p-4">
-                <h3 class="text-3xl font-bold text-blue-600">Global</h3>
-                <p>Students from MY, AU, CN & more</p>
+                <h3 class="text-4xl font-extrabold text-amber-500">Global</h3>
+                <p class="text-gray-600 font-medium mt-1">Students from MY, AU, CN & more</p>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
     <section class="py-16 px-6 max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold mb-6 text-center">Why Choose My Tuition?</h2>
-        <p class="text-lg leading-relaxed text-center mb-10">
+        <h2 class="text-3xl font-bold mb-6 text-center text-gray-900">Why Choose My Tuition?</h2>
+        <p class="text-lg leading-relaxed text-center mb-10 text-gray-600">
             I believe every child is unique. My teaching method is tailored to your child's personality and learning style. Whether they are shy, active, or struggling with confidence, I guide them to think like top-tier students rather than just memorizing rules.
         </p>
         
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-blue-50 p-6 rounded-lg">
-                <h4 class="font-bold text-xl mb-2 text-blue-800">Subjects Offered</h4>
-                <ul class="list-disc list-inside space-y-2">
+            <div class="bg-amber-50 border border-amber-100 p-6 rounded-xl shadow-sm">
+                <h3 class="font-bold text-xl mb-3 text-amber-900">Subjects Offered</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
                     <li>Mathematics</li>
-                    <li>English (Primary/Secondary/Adult)</li>
+                    <li>English (Primary / Secondary / Adult)</li>
                     <li>Bahasa Melayu</li>
                     <li>Exam Prep: SPM, IGCSE, Aptis, UASA</li>
                 </ul>
             </div>
-            <div class="bg-green-50 p-6 rounded-lg">
-                <h4 class="font-bold text-xl mb-2 text-green-800">Teaching Philosophy</h4>
-                <ul class="list-disc list-inside space-y-2">
-                    <li>Small class sizes for better focus</li>
-                    <li>Interactive & Engaging lessons</li>
+            <div class="bg-amber-50 border border-amber-100 p-6 rounded-xl shadow-sm">
+                <h3 class="font-bold text-xl mb-3 text-amber-900">Teaching Philosophy</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Small class sizes for personalized focus</li>
+                    <li>Interactive & engaging lesson structures</li>
                     <li>Practical skills for real-life application</li>
                     <li>Flexible online & physical options</li>
                 </ul>
@@ -66,15 +76,17 @@
     </section>
 
     <!-- Footer / Contact -->
-    <footer class="bg-gray-900 text-white py-12 text-center">
-        <h3 class="text-2xl font-bold mb-4">Ready to improve your grades?</h3>
-        <p class="mb-6">Message me today for a free assessment!</p>
-        <div class="space-y-4">
-            <p><strong>WhatsApp:</strong> +60 14-962 3810</p>
-            <p><strong>Email:</strong> evelynsuperbenterprise@gmail.com</p>
-            <a href="https://wa.me/60149623810" class="inline-block bg-blue-600 px-6 py-2 rounded mt-4">Contact on WhatsApp</a>
+    <footer class="bg-gray-900 text-white py-12 text-center px-6">
+        <div class="max-w-xl mx-auto">
+            <h3 class="text-2xl font-bold mb-3">Ready to improve your grades?</h3>
+            <p class="mb-6 text-gray-400">Message me today for a free assessment!</p>
+            <div class="space-y-2 text-gray-300 mb-6">
+                <p><strong>WhatsApp:</strong> +60 14-962 3810</p>
+                <p><strong>Email:</strong> evelynsuperbenterprise@gmail.com</p>
+            </div>
+            <a href="https://wa.me/60149623810" class="inline-block bg-amber-500 hover:bg-amber-600 text-gray-900 font-bold px-8 py-3 rounded-full transition">Contact on WhatsApp</a>
+            <p class="mt-10 text-gray-500 text-sm">© 2026 Evelyn Superb Enterprise. All rights reserved.</p>
         </div>
-        <p class="mt-10 text-gray-500 text-sm">© 2026 Ms. Evelyn's Online Tuition</p>
     </footer>
 
 </body>
